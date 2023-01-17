@@ -1,0 +1,6 @@
+exercice 1 : classe Liste
+exercice 2 : classe Arbre
+exercice 3 : classe Arbre
+exercice 4 : classe Arbre
+exercice 5 : classe Noeud
+exercice 6 : classe Noeud

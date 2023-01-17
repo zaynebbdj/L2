@@ -1,0 +1,7 @@
+Exercice 1)
+a)
+    Q*UES**TI*ON*FAC*IL**E* si chaque lettre est un empilement et chaque astérisque un dépilement 
+    pour une pile alors cela donne QSEINCLIE
+b)
+    Q*UES**TI*ON*FAC*IL**E* si chaque lettre est un empilement et chaque astérisque un dépilement 
+    pour une file  alors cela donne QUESTIONF

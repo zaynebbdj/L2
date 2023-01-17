@@ -1,0 +1,48 @@
+    public static void permute(int[]tab ,int i, int j){
+        int c =tab[i];
+        tab[i]=tab[j];
+        tab[j]=c;
+    }
+    public int indicemin(int j){
+        int min = tab[j];
+        int indice=0;
+        for(int i=j; i<tab.length; i++){
+            if (tab[i]<min){
+                min = tab[i];
+                indice =i;
+            }
+        }
+        return indice;
+    }
+    
+    public static void triinsertion(int[] tab){
+        
+        for(int i=1 ; i<tab.length ; i++){
+            int j = i;
+
+            while(j>0 && tab[j-1]>tab[j]){
+                permute(tab,j,j-1);
+                j--;
+            } 
+        }
+    }
+
+    public static void triselection(int[] tab){
+        for(int i=0 ; i<tab.length-1 ; i++){
+            int min = indicemin(i);
+            permute(tab,i,min);
+        }
+    }
+    public static void triabulle(int[] tab){
+        for(int j= tab.length-1 ; j>0 ; j--){
+            for(int i=0; i<j; i++){
+                if (tab[i]>tab[i+1]) permute(i,i+1);
+            }
+        }
+    }
+    public static void affiche(int[] tab){
+        for(int i =0 ; i<tab.length ;i++){
+            System.out.print(tab[i]+" ");
+        }
+        System.out.println(" ");
+    }

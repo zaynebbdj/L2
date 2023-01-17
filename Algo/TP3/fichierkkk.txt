@@ -1,0 +1,3 @@
+Écrire la fonction mult_list : int list -> int list -> int list telle que mult_list l1 l2 renvoie la multiplication terme à terme de l1 et l2. Si une liste est plus longue que l'autre, alors on s'arrête lorsque l'on arrive au bout de la plus petite. Par exemple mult_list [3; 2; 1] [2; 1; 0; 4; 5] renvoie la liste  [6; 2; 0]
+
+Écrire la fonction intervalle : int list -> int -> int -> bool telle que intervalle l mini maxi renvoie true si tous les éléments de l sont compris dans l'intervalle [mini,maxi], et renvoie false sinon.
